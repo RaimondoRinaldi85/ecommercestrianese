@@ -300,3 +300,7 @@ hr.socket {
 	cursor: pointer;
 	background-color: red !important;
 }
+.btn-card2:hover{
+	cursor: pointer;
+	background-color: rgb(107, 0, 0) !important;
+}

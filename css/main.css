@@ -1,0 +1,89 @@
+body{
+   background-color: #f7fcff !important;
+}
+
+.slider{
+    box-shadow: 1px 1px 20px#333 !important;
+}
+
+.section-follow .fa-4x{
+    margin: 5px 10px;
+}
+
+.section-follow .fa-4x:hover {
+    color: #0c3b69 !important; 
+}
+
+.caption{
+    text-shadow: 3px 3px 10px #333;
+    outline: #333;
+}
+
+.card-title{
+    text-shadow: 1px 1px 9px #333 !important;
+    font-weight: 700 !important;
+    }
+
+.btn{
+        margin-top: 15px;     
+}
+
+.row h6{
+        margin-bottom: 50px !important;
+}
+
+.btn:hover{
+        background-color: #fff !important;
+        color: #333 !important;
+}
+
+blockquote{
+        font-size: 12px !important;
+        font-style: italic !important;
+}
+
+.section-popular span img{
+    width: 300px !important;
+    animation: FadeInLogo 2s forwards 0s ease-in;
+}
+
+.card{
+    height: 380px !important;
+}
+
+.brand-logo img{
+    width: 70%;
+    padding: .3rem;    
+}
+
+
+/*
+.parallax-container {
+    height: 300px !important;
+} */
+
+
+@keyframes FadeInLogo{
+    0%{
+        opacity: 0;
+        }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 1;
+        }
+    }
+
+    [data-scroll] {
+        transition: all 1s;
+      }
+      [data-scroll="in"] {
+        opacity: 1;
+        transform: translateY(0);
+    
+      }
+      [data-scroll="out"] {
+        opacity: 0;
+        transform: translateY(100px);
+      }

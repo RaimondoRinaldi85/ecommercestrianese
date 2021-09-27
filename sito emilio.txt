@@ -1,0 +1,45 @@
+Hosting GitHub
+
+mail usata: emilio.strianese@gmail.com
+nome utente: EmilioStrianese
+password: raimondo@2019
+....................
+
+Aruba dominio
+
+nome utente: 10528534@aruba.it
+password: Raimondo@2021
+....................
+
+Mail con dominio
+
+Postmaster: postmaster@strianesesrl.it
+password: Raimondo@2021
+
+Mail 1: amministrazione@strianesesrl.it
+password: emilioST@2019
+
+Mail 2: ufficio@strianesesrl.it
+password:strianeseUF@2019
+
+
+--------------------------------
+
+
+Aggiornamento 2020 Ottobre
+
+ufficio@strianesesrl.it: EmilioUF@2020!
+
+info@strianesesrl.it: EmilioINF@2020!
+
+amministrazione@strianesesrl.it: EmilioAD@2020!
+
+emilio@strianesesrl.it: EmilioST@2020!
+
+
+----------------------------------
+
+portatile Fabiana
+
+fabiana.strianese@outlook.it
+fabianastrianese@2021

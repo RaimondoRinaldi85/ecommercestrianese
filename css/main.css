@@ -1,10 +1,6 @@
 body{
-   background-color: #f7fcff !important;
-}
-
-.slider{
-    box-shadow: 1px 1px 20px#333 !important;
-}
+    background-color: #f7fcff !important;
+ }
 
 .section-follow .fa-4x{
     margin: 5px 10px;
@@ -15,8 +11,8 @@ body{
 }
 
 .caption{
-    text-shadow: 3px 3px 10px #333;
-    outline: #333;
+    text-shadow: 3px 3px 10px #333 !important;
+    outline: #333 !important;
 }
 
 .card-title{
@@ -38,8 +34,7 @@ body{
 }
 
 blockquote{
-        font-size: 12px !important;
-        font-style: italic !important;
+        font-size: 11px !important;
 }
 
 .section-popular span img{
@@ -60,11 +55,9 @@ blockquote{
     margin-top: 5rem;
 }
 
-
-/*
 .parallax-container {
     height: 300px !important;
-} */
+}
 
 
 @keyframes FadeInLogo{

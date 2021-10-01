@@ -13,6 +13,12 @@ body{
 .caption{
     text-shadow: 3px 3px 10px #333 !important;
     outline: #333 !important;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 .card-title{

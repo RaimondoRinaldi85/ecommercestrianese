@@ -11,11 +11,11 @@ body{
 }
 
 .caption{
-    text-shadow: 3px 3px 10px #333 !important;
+    text-shadow: 1px 1px .2px rgba(255, 255, 255, 0.404) !important;
     outline: #333 !important;
-    background: rgba( 255, 255, 255, 0.15 );
+    background: rgba(255, 255, 255, 0.041);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur( 12.5px );
+    backdrop-filter: blur( 8.5px );
     -webkit-backdrop-filter: blur( 12.5px );
     border-radius: 15px;
     padding: 1rem;
@@ -59,6 +59,10 @@ blockquote{
 
 .logo-info{
     margin-top: 5rem;
+}
+
+.video-container{
+    margin-top: 1.5rem !important;
 }
 
 .parallax-container {

@@ -53,8 +53,8 @@ blockquote{
 }
 
 .brand-logo img{
-    width: 70%;
-    padding: .3rem;    
+    height: 50px !important; 
+    padding: auto !important; 
 }
 
 .logo-info{

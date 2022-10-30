@@ -1,6 +1,5 @@
 :root {
     --coloregrad: linear-gradient(79deg, rgba(62, 157, 217, 1) 0%, rgba(17, 99, 212, 1) 44%, rgba(52, 113, 191, 1) 100%);
-
     --colorpri: rgb(52, 113, 191);
 }
 
@@ -162,9 +161,7 @@ p {
 }
 
 .flexslider .btn {
-    background: var(--colorpri);
-    border-radius: 0;
-    border: 2px solid transparent;
+    background: var(--coloregrad);
     color: #FFFFFF;
     font-weight: bold;
     margin: 40px 0 0 0;
@@ -179,7 +176,6 @@ p {
 .flexslider .btn:focus {
     background: #fff;
     color: var(--colorpri);
-    border: 2px solid transparent;
 }
 
 /* end home */
@@ -188,6 +184,7 @@ p {
 #service .media {
     padding: 10px;
 }
+
 
 #service .media .fa {
     color: var(--colorpri);
@@ -211,6 +208,10 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     color: #FFFFFF;
+}
+
+#divider p {
+    font-size: 20px;
 }
 
 #divider h2 {
@@ -263,168 +264,6 @@ p {
 }
 
 /* end about */
-
-/* start team */
-#team {
-    border-top: 1px solid #f6f6f6;
-    border-bottom: 1px solid #f6f6f6;
-    text-align: center;
-}
-
-#team h2 {
-    padding-bottom: 30px;
-}
-
-#team img {
-    border: 1px solid #f6f6f6;
-    display: inline-block;
-    padding: 10px;
-    transition: all 0.4s ease-in;
-}
-
-#team img:hover {
-    opacity: 0.4;
-    cursor: pointer;
-}
-
-#team h3 {
-    color: var(--colorpri);
-    padding-bottom: 10px;
-}
-
-#team h4 {
-    font-size: 14px;
-    padding-top: 20px;
-    line-height: 0px;
-}
-
-/* end team */
-
-/* start newsletter */
-#newsletter {
-    background: url('../images/newsletter-bg.jpg') center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-#newsletter p {
-    padding-bottom: 30px;
-}
-
-#newsletter .btn {
-    background: transparent;
-    border-radius: 0px;
-    color: #ffffff;
-    margin-top: 40px;
-}
-
-#newsletter .form-control {
-    background: transparent;
-    border-color: #f2f2f2;
-    border-radius: 0px;
-    color: #ffffff;
-    height: 50px;
-}
-
-#newsletter input[type="submit"] {
-    background: var(--colorpri);
-    border: 2px solid transparent;
-    color: #ffffff;
-}
-
-#newsletter .form-control::-moz-placeholder {
-    color: #ffffff;
-    opacity: 1;
-}
-
-#newsletter .form-control:-ms-input-placeholder {
-    color: #ffffff;
-}
-
-#newsletter .form-control::-webkit-input-placeholder {
-    color: #ffffff;
-}
-
-/* end newsletter */
-
-/* start pricing */
-#pricing {
-    border-bottom: 1px solid #f6f6f6;
-}
-
-#pricing .col-md-3,
-#pricing .col-sm-6 {
-    padding: 0;
-    margin: 0;
-}
-
-#pricing .plan {
-    border: 1px solid #f6f6f6;
-    margin-top: 100px;
-    transition: all 0.4s ease-in;
-    padding: 40px;
-}
-
-#pricing .plan_one {
-    margin-top: 60px;
-}
-
-#pricing .plan_two {
-    margin-top: 80px;
-}
-
-#pricing .plan_three {
-    margin-top: 40px;
-}
-
-#pricing .plan_four {
-    margin-top: 0px;
-}
-
-#pricing .plan:hover {
-    background: #202020;
-    color: #ffffff;
-    transform: scale(1.0);
-}
-
-#pricing .plan .plan_title {
-    border-bottom: 1px solid #f6f6f6;
-    color: var(--colorpri);
-    font-size: 30px;
-    padding: 20px;
-}
-
-#pricing .plan ul {
-    padding: 0;
-}
-
-#pricing .plan ul li {
-    display: block;
-    padding: 20px 0 20px 0;
-}
-
-#pricing .plan .btn {
-    background: var(--colorpri);
-    border: none;
-    border-radius: 2px;
-    font-weight: bold;
-    font-size: 12px;
-    width: 120px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    transition: all 0.4s ease-in-out;
-}
-
-#pricing .plan .btn:hover {
-    background: #FFFFFF;
-    color: var(--colorpri);
-}
-
-/* end pricing */
 
 /* start portfolio */
 #portfolio h2 {
@@ -701,7 +540,7 @@ footer .social-icon {
     }
 
     .flexslider h2 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .templatemo-slider-btn {

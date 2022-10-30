@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
 :root {
     --coloregrad: linear-gradient(79deg, rgba(62, 157, 217, 1) 0%, rgba(17, 99, 212, 1) 44%, rgba(52, 113, 191, 1) 100%);
     --colorpri: rgb(52, 113, 191);
@@ -5,7 +7,7 @@
 
 body {
     background: #ffffff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     position: relative;
 }
@@ -216,6 +218,13 @@ p {
 
 #divider h2 {
     font-size: 40px;
+}
+
+#divider h3 {
+    font-size: 40px;
+    margin: 0;
+    line-height: 80px;
+    padding: 0;
 }
 
 #divider strong {

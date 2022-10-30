@@ -267,11 +267,6 @@ p {
     padding-bottom: 10px;
 }
 
-#about small {
-    font-weight: bold;
-    padding-left: 200px;
-}
-
 /* end about */
 
 /* start portfolio */
@@ -283,6 +278,8 @@ p {
     overflow: hidden;
     margin: 0;
     position: relative;
+    box-shadow: 3px 3px 5px var(--colorpri);
+
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
@@ -380,6 +377,7 @@ p {
     width: 100%;
     display: block;
     height: auto;
+    border: 1px solid var(--colorpri);
 }
 
 /* end portfolio */

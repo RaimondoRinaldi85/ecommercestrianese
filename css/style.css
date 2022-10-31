@@ -25,7 +25,6 @@ p {
 /* start all section */
 #service,
 #divider,
-#about,
 #team,
 #newsletter,
 #pricing,
@@ -213,7 +212,7 @@ p {
 }
 
 #divider p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #divider h2 {
@@ -221,14 +220,14 @@ p {
 }
 
 #divider h3 {
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
-    line-height: 80px;
+    line-height: 70px;
     padding: 0;
 }
 
 #divider strong {
-    color: var(--colorpri);
+    color: black;
 }
 
 #divider h3 {
@@ -273,7 +272,7 @@ p {
 
 #portfolio h2 {
     padding-bottom: 30px;
-    color: white;
+    color: var(--colorpri);
 }
 
 #portfolio .portfolio-thumb {
@@ -524,7 +523,7 @@ footer a:hover {
     }
 }
 
-/* start templatemo 768 media quires */
+/* start 768 media quires */
 @media only screen and (max-width: 768px) {
     .navbar-default .navbar-brand {
         margin-left: 20px;
@@ -553,11 +552,24 @@ footer a:hover {
         height: 40px;
         padding-top: 8px;
     }
+
+    #divider h2 {
+        font-size: 30px;
+    }
+
+    #divider h3 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    #divider p {
+        scroll-snap-destination: 18px;
+    }
 }
 
-/* end templatemo 768 media quires */
+/* end  768 media quires */
 
-/* start templatemo 600 media quires */
+/* start  600 media quires */
 @media only screen and (max-width: 640px) {
     .flexslider h1 {
         font-size: 20px;
@@ -575,9 +587,9 @@ footer a:hover {
     }
 }
 
-/* end templatemo 600 media quires */
+/* end  600 media quires */
 
-/* start templatemo 360 media quires */
+/* start  360 media quires */
 @media only screen and (max-width: 360px) {
     #team .col-md-4 {
         padding-top: 40px;

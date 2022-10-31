@@ -270,8 +270,10 @@ p {
 /* end about */
 
 /* start portfolio */
+
 #portfolio h2 {
     padding-bottom: 30px;
+    color: white;
 }
 
 #portfolio .portfolio-thumb {
@@ -283,7 +285,7 @@ p {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-    background: #333;
+    background: var(--coloregrad);
     color: #ffffff;
     top: 0;
     right: 0;
@@ -401,6 +403,14 @@ p {
     padding-bottom: 14px;
 }
 
+#contact .fa-brands {
+    color: var(--colorpri);
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
+
+
 #contact .form-control {
     background: #f2f2f2;
     border-radius: 4px;
@@ -439,7 +449,7 @@ p {
 /* end contact */
 
 /* start google map */
-#map-canvas {
+#gmap_canvas {
     border: none;
     width: 100%;
     height: 320px;
@@ -449,16 +459,22 @@ p {
 
 /* start footer */
 footer {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    background: var(--coloregrad);
+    color: white;
 }
 
 footer p {
     line-height: 12px;
 }
 
-footer .social-icon {
-    top: 0px;
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
 }
 
 /* end footer */
@@ -470,19 +486,20 @@ footer .social-icon {
 /* start social icon */
 .social-icon {
     position: relative;
-    padding: 0;
-    margin: 0;
+    padding: 1rem 1rem 1rem 0;
+    margin-bottom: 2rem;
     top: 20px;
 }
 
 .social-icon li {
     display: inline-block;
     list-style: none;
+
 }
 
 .social-icon li a {
     color: #333;
-    font-size: 13px;
+    font-size: 40px;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     width: 40px;
